@@ -1,0 +1,79 @@
+/* Ensure the footer stretches across the full width of the page */
+.footer {
+    width: 100%;
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    padding: 20px 0; /* Top and bottom padding */
+    position: relative; /* Ensures footer stays at the bottom if the page content is small */
+    bottom: 0;
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Restricts the content width */
+    margin: 0 auto; /* Centers the footer content */
+    padding: 0 20px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column; /* Arrange links vertically */
+    gap: 10px; /* Space between each link */
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .socialMedia {
+    display: flex;
+    flex-direction: column; /* Arrange social media links vertically */
+    gap: 15px; /* Space between each social link */
+  }
+  
+  .socialLink {
+    color: white;
+    font-size: 24px; /* Adjusted icon size */
+  }
+  
+  .socialLink:hover {
+    color: #1da1f2; /* Hover effect for social links */
+  }
+  
+  .footerBottom {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .footerBottom p {
+    margin: 0;
+  }
+  
+  .socialLink {
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center; /* Align icon and username horizontally */
+    gap: 8px; /* Space between icon and username */
+    text-decoration: none; /* Ensure no underline on the link */
+  }
+  
+  .username {
+    font-size: 16px; /* Set a smaller font size for the username */
+    color: white;
+    font-weight: bold; /* Make username bold */
+  }
+  
+  .socialLink:hover .username {
+    text-decoration: underline; /* Underline on hover for username */
+  }
+  

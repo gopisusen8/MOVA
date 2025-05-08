@@ -1,0 +1,82 @@
+.landing__outer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.landing__outer input {
+    outline: 2px solid gray;
+    -webkit-appearance: none; /* Disables default browser styling */
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 5px; /* Adjust this value for more/less rounding */
+}
+
+
+/* Remove dropdown arrow and cross button */
+.landing__outer input[type="text"]::-ms-clear {
+    display: none; /* For Microsoft Edge */
+}
+
+.landing__outer input[type="text"]::-webkit-outer-spin-button,
+.landing__outer input[type="text"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* Removes the arrow */
+    margin: 0; /* Removes the default margin */
+}
+
+.landing__outer input[type="text"]::-webkit-search-cancel-button {
+    -webkit-appearance: none; /* Removes the cross button */
+    display: none; /* Hides the cross button */
+}
+
+.langing__gap {
+    width: 100%;
+    height: 4.5rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+@media screen and (min-width: 1700px) {
+    .landing__outer {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .landing__outer {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+    .landing__outer {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 2462px) {
+    .landing__outer {
+        width: 55%;
+    }
+}

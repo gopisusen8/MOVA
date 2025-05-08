@@ -1,0 +1,21 @@
+[
+    {
+      "id": "cab1",
+      "name": "Sedan",
+      "fare": 300,
+      "eta": 12
+    },
+    {
+      "id": "cab2",
+      "name": "SUV",
+      "fare": 450,
+      "eta": 15
+    },
+    {
+      "id": "cab3",
+      "name": "Mini",
+      "fare": 200,
+      "eta": 10
+    }
+  ]
+  
